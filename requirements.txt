@@ -2,8 +2,8 @@ streamlit
 numpy==1.26.4
 faiss-cpu
 torch
-transformers
-sentence-transformers
+transformers==4.57.1
+sentence-transformers==5.2.2
 requests
 PyMuPDF
 pytesseract
