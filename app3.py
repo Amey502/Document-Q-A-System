@@ -19,7 +19,7 @@ import os
 # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\TesseractOCR\tesseract.exe"
 
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY"),
+    api_key=st.secrets["GROQ_API_KEY"],
 )
 
 def bm25_preprocess(text):
