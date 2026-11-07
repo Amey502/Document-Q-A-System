@@ -501,3 +501,5 @@ Grounded LLM Generation
 
 This design combines the strengths of semantic search, exact keyword
 matching, and neural relevance scoring before generation.
+
+You can also find my app hosted on streamlit : https://ame-rag-assistant.streamlit.app/
